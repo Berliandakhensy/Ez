@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VERSION HUB SCRIPT</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="wrapper">
+
+            <div class="logo"><a href=''>VERSION HUB</a></div>
+
+            <div class="menu">
+
+                <ul>
+
+                    <li><a href="#home">Home</a></li>
+
+                    <li><a href="#📢update :">📢update :</a></li>
+
+                    <li><a href="#tutors">📢 Developer</a></li>
+
+                    <li><a href="#partners">Partners</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <div class="wrapper">
+
+        <!-- untuk home -->
+
+        <section id="home">
+
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBhAIBwgWFRIRFh0VGBUVFRUVEhcZHRUdHRcSFRYYHSggGB0nHRgWITEhJSkrRS4uFx8zODosNygtLisBCgoKDg0OFhAQFi0eIB0rKysrKy0tKy0rLSstKystKysrLS0tLSsrKystNystLSstNy03LTctLS03Ny0rLSsrLf/AABEIAMgAyAMBIgACEQEDEQH/xAAcAAEBAAIDAQEAAAAAAAAAAAAAAgUGBAcIAwH/xAA4EAEAAQMCAgcGBAQHAAAAAAAAAgMEBQESBhMHERQVIjIzFiExQnKBUnGRwSOCg6E0QUNEUWFi/8QAGgEBAQADAQEAAAAAAAAAAAAAAAIBAwUEBv/EACYRAQACAQMEAgEFAAAAAAAAAAACAwEEEiIFESExE0EyFEJRUqH/2gAMAwEAAhEDEQA/AOnwHubwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFigAZABgBWyYJAAQsBAAkAAAAAAAAAABYoAGRQzHD+ErZm4/DTj5pCLbYUwzOee2MPlhMPWytT8NOPmk2iphMby+X2Vm6drRtLeNC3htjFj8hdUbG3lXuHqrjH9z5ezqFuptxs74x9Yw0zuetUzkcTb+KUpxjH+Z6CxnRhwrYWOltVxkauvV4qlT3y1dadEVjLNcba5OrHqjbx3/AH19z0B/n1OdfLlxfR+duN3vt5eZek3hSnwtxBpb2UpcqrHmQ0/410+OjT299MWS7z44rU9PLbRjR++uvXr/AH1aI2w/Fvh+KRSVMiFgwgASAAAAAAAAsAWKAUzfDeArZm8/DTj5pOzadrRsbONpZw2xi13o3uqPY52PzbtzaLz+HTZi+G61qbZ6nNUvGMesMJmL2jY28q9xN15lL6tkrjmVP5Ys9xRa3N3U7XT8UY/K1y3oVq9xGhb+aUoxj9Umy3dHw+g6LpqoVfL37yd8dCGL0seFJXstfFdVN37afu3rM5GlicVWv63low1nr9tOt+YWwpYnE0bCj5aMNIafbTRrXSjWhrw/rj9f9bXqcyyfbvLLpV15tniOPt5xuK9a7uJV7j1JSlKX1SfFkMpjp2Nx/wCflk4T2Q2yjja9kqpV8ZPiLQpqSKSJELQMAAkAAAAABYAtS0LFPrZ161pcRr289souw8fn4ZnFyp1PDWj5ouun1t5zoVI1Kc9siPGWJPFrunQ1ccf2x6y7Dpwc/gnhSFbjShfUpdUKO6trH/vX3af3Yjh/IwyVPl1PUi7Z4AsuRYVLnXzVZdbbqbcSg4Ok+enV/F6/ltbqrj+9hdZnWjTl6MeX+rs2/uqNjZzuq8uqNOOstfs8u98XPelXJfNXlKVSP1OTZRK2PF9b0+UYW7pMxkIQr05U6kGu5jFVsbsqeanV9OTYqc4X23s/zNu7utrrH9huIbqe15Ldd+k2/wC4d/U0RujiUfbpwZXiTD1sNecipPdGXijJinaqtjZHE458ZcGcdstskJUlSBC0CQAQAAAAAAsAWpaFilqSobYuRZzrU7iNSz9T5fqerMLa62WKo20vjCGmmv6PPPRZidMtxnbxl5KWvP1/OPw0/V6UaL5PJqMR34l289mh9MuT0suEJW2nxuZaUtHQPjqVHYvTTlNLviinj6X+3h1/qwGDx0KH8Sp6iJW4qhudDQ0ZnhkOG8V2GnzKnqSbVbsVbtf4o4p82NxU/qqPnLardba6tsoUQcLpAytG+vIWlv4uQ1RaH01FGKKsQx9OLbLMpZllCVJb2oQtAkAEAAAAAALAFqWgFLWhYp3B0AaUdbm+lL1eqn1/l1a/u7fua8LahKvWl1Rjp16vJmJyd9iL7S9xlzrCrH3bo/Bnc3x9xFnrXW2v77Tla/GMIbNdfzaJVZlJolXmUnwjkJZfiKtka+nvrayqM9btBpznTqcxzqmYv6lPl85qv02bPTtaXVwphtzhms5n/NaWc/qk1UG+iiNWO2HkttzZLvlAIbXnEqSNYhaBgAEgAAAAALELFCkgy2PhzAUczb3F1c5LSjTocr5KlX1qmxl7XgCvO1vK19kYw1tK2tHXw7/u1rB5/K4Lf3Veyp819sfxLmMbb1aFnkJRjXlul6c90mrmjkyHstOHDntB22PZ+z83+rzNnY2SynR/LG5CzsdctGUryrGl6TWu1Vu46WN70lyZT3SofJCTIXnE2VurzTm5yUuya82jLZT80TkndJOK4fpXmt7K7yelKlZeepsqT81TYzmO6OLi8u7u1nkYxlbVY0/SqTYW34pzHfEb7v2UalWO2UnCqZG8r293TuMvLbVnzZRl4+fJnmrdJlfZLZwZ7STyEfm8MY/hqbHJz3ANbEWlKvPJ6eKrSpeKlUpeownf2SoYOOKp5PdRlpLdR2U3xvOIsxd/4jITltnGrH66dPZTqMczk5vGHDPs3eUqHaudGUN0ZbNkGuMhmM3kszUjUyt7KpKMdsWNXFcQBQIAQAAAAAAAAAAsQsUKSDKhIKUJAUJBIAMCAAAEgAAAAAAAAAAALEApYgGViAFiAYWgBIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//2Q=="/>
+
+            <div class="kolom">
+
+                <p class="deskripsi"si>This Is Developer Hub Create By .im dev &YO_12#1889</p>
+
+                <h2>Developer hub on top🔥</h2>
+
+                <p> btw, developer hub has a bug? You can report on discord👇</p>
+
+             <p><a href="" class="tbl-biru">https://discord.gg/s7SDDXhZ</a></p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- untuk courses -->
+
+        <section id="courses">
+
+            <div class="kolom">
+
+                <p class="deskripsi">Hope it is useful </p>
+
+                <h2>📢Update :</h2>
+
+                <p>remove all emoji, change icons</p>
+
+                <p>STATUS : WORKING</p>
+
+                <p><a href="" class>want to see ui?, this is my ui script</a></a></p>
+
+            </div>
+
+            <img src="https://cdn.discordapp.com/attachments/1114887841378467922/1130000248874487849/Screenshot_2023-07-16-11-17-57-36.jpg"/>
+
+        </section>
+
+
+
+        <!-- untuk tutors -->
+
+        <section id="tutors">
+
+            <div class="tengah">
+
+                <div class="kolom">
+
+                    <p class="deskripsi">very cool</p></p></p>            <h2>📢DEVELOPER :</h2>
+
+                    <p>@.im dev</p>
+
+                </div>
+
+
+
+                <div class="tutor-list">
+
+                    <div class="kartu-tutor">
+
+                        <img src="https://cdn.discordapp.com/attachments/1106503128733458453/1130061818627358790/Screenshot_2023-07-16-16-02-03-69.jpg"/>
+
+                        <p>@YO_12#1889</p>
+
+                    </div>
+
+                    <div class="kartu-tutor">
+
+                        <img src="https://cdn.discordapp.com/attachments/1118781882943942717/1130062549820395600/Screenshot_2023-07-16-16-05-01-51.jpg"/>
+
+                        <p>@.arkirius</p>
+
+                    </div>
+
+                    <div class="kartu-tutor">
+
+                        <img src="https://cdn.discordapp.com/attachments/1118781882943942717/1130063606256513094/Screenshot_2023-07-16-16-08-00-35.jpg"/>
+
+                        <p>@saiko456</p>
+
+                    </div>
+
+                    <div class="kartu-tutor">
+
+                        <img src="https://cdn.discordapp.com/attachments/1126006284815188068/1130065270703149156/Screenshot_2023-07-16-16-15-50-99.jpg"/>
+
+                        <p>Bruce Wills</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- untuk partners -->
+
+        <section id="partners">
+
+            <div class="tengah">
+
+                <div class="kolom">
+
+                    <p class="deskripsi">Our Top Partners</p>
+
+                    <h2>Partners</h2>
+
+                    <p></p>
+
+                </div>
+
+
+
+                <div class="partner-list">
+
+                    <div class="kartu-partner">
+
+                        <img src="https://cdn.discordapp.com/attachments/1118781882943942717/1130067156126683217/Screenshot_2023-07-16-16-22-31-25.jpg"/>
+
+                    </div>
+
+                    <div class="kartu-partner">
+
+                        <img src="https://cdn.discordapp.com/attachments/1118781882943942717/1130068022376272002/Screenshot_2023-07-16-16-26-41-91.jpg"/>
+
+                    </div>
+
+                    <div class="kartu-partner">
+
+                        <img src="https://cdn.discordapp.com/attachments/1118781882943942717/1130068523306205214/Screenshot_2023-07-16-16-28-36-28.jpg"/>
+
+                    </div>
+
+                    <div class="kartu-partner">
+
+                        <img src="https://cdn.discordapp.com/attachments/1118781882943942717/1130076020263890965/Screenshot_2023-07-16-16-57-51-50.jpg"/>
+
+                    </div>
+
+                    <div class="kartu-partner">
+
+                        <img src="https://cdn.discordapp.com/attachments/1118781882943942717/1130076452184936598/Screenshot_2023-07-16-17-00-07-74.jpg"/>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+                <div class="footer-section">
+
+                    <h3So></h3So>Link Script</h3>
+
+                    <p>https://pastebin.com/raw/Mbv2dDVc</p>
+
+                </div>
+
+                <div class="footer-section">
+
+                    <p><b>YouTube: </b>https://youtube.com/@First-010</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div id="copyright">
+
+        <div class="wrapper">The end 
+
+        </div>
+
+    </div>
+
+    
+
+</body>
+
+</html>
